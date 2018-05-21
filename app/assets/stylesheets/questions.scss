@@ -1,3 +1,32 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@import 'bootstrap';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.question {
+  font-family: 'Montserrat', sans-serif;
+  border-left: 7px solid rgb(200, 200, 200);
+}
+
+.question h3 {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.question p {
+  padding: 10px;
+}
+
+.answer {
+  background: #FEFFDF;
+}
+
+.back {
+  padding: 20px 0px;
+}
